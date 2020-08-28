@@ -3,3 +3,7 @@ django-admin startproject django_project
 source djangoenv/bin/activate
 
 python manage.py startapp blog
+
+python manage.py migrate  # 
+python manage.py makemigrations   # apply any changes
+python manage.py createsuperuser
