@@ -1,0 +1,5 @@
+django-admin startproject django_project
+
+source djangoenv/bin/activate
+
+python manage.py startapp blog
